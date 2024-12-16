@@ -1,0 +1,140 @@
+.singleItemPage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    padding: 20px;
+    position: relative;
+}
+
+.singleItemPage h2{
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+
+.createItemForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .createItemForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .itemImageUpload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 170px;
+    height: 170px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--dark-gray);
+    margin-bottom: 20px;
+  }
+  .itemImageUpload img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .itemImageUpload button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .itemData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .valueBox {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px 10px;
+  }
+  
+  .valueBox label {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: var(--orange);
+    font-weight: 600; 
+  }
+  
+  .valueBox input,
+  .valueBox select {
+    padding: 0.5rem;
+    border: 1px solid var(--orange);
+    background-color: var(--dark-gray);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .submitButton {
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--dark-gray);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .updated{
+    background: linear-gradient(135deg, var(--orange), var(--orange-two));
+    border: none;
+  }
+
+  .backLink{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: var(--orange);
+    font-size: 1rem;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+  }
+
+  .backLink svg{
+    font-size: 1.2rem;
+  }
+
+  .deleteItemBtn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: red;
+    font-size: .8rem;
+  }

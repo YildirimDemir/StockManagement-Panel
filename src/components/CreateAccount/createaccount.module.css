@@ -1,0 +1,192 @@
+.createAccountPage{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.createAccountPage h1{
+    color: #fff;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+
+.createAccountForm{
+    width: 700px;
+    height: auto;
+    border: 2px solid var(--dark-gray);
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createAccountForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nameBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameBox h2{
+    font-family: monospace;
+    color: var(--orange);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.nameBox input{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 2px solid var(--dark-gray);
+    color: #fff;
+    outline: none;
+    padding: 2px 8px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.selectPlan{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.selectPlan h2{
+    font-family: monospace;
+    color: var(--orange);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.plans{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.planBox{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid var(--dark-gray);
+    padding: 15px;
+    background: linear-gradient(135deg, #4e220034, #141414, #141414);
+    background-size: 200% 200%;
+    position: relative;
+}
+
+.planBox h2{
+    color: var(--orange);
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--font-family-two);
+}
+
+.planBox h4{
+    color: var(--orange);
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--font-family-two);
+    margin-bottom: 10px;
+}
+
+.planBox p{
+    color: white;
+    font-family: var(--font-family-one);
+    font-weight: 600;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.planBox svg{
+    margin-right: 10px;
+    font-size: .8rem;
+    color: var(--orange);
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 80px;
+    border: 2px solid var(--dark-gray);
+    cursor: pointer;
+    background: linear-gradient(135deg, var(--orange), var(--orange-two));
+}
+
+.selected {
+    border-color: var(--orange);
+}
+  
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.payment h2{
+    font-family: monospace;
+    color: var(--orange);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.payment .paymentMethod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paymentMethod input{
+    width: 300px;
+    height: 50px;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid var(--dark-gray);
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    outline: none;
+}
+
+.cardSecret{
+    width: 300px;
+    display: flex;
+}
+
+.cardSecret input{
+    width: 150px;
+}

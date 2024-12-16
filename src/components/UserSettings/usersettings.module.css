@@ -1,0 +1,46 @@
+.settingsPage{
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    flex: 1;
+}
+
+.settingsArea{
+    width: 600px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsSidebar{
+    height: 50px;
+    background-color: var(--dark-gray);
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseBtn{
+    padding: 3px 5px;
+    background-color: var(--dark-gray);
+    border-bottom: 1px solid var(--orange);
+    width: 80px;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 20px;
+    outline: none;
+}
+
+.selectedSettingArea{
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    overflow-y: scroll;
+    border-radius: 0px 0px 8px 8px;
+    border: 2px solid var(--dark-gray);
+    padding: 10px;
+}

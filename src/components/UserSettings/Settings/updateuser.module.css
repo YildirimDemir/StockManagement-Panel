@@ -1,0 +1,72 @@
+.updateUserInfoArea{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.updateUserInfoArea h3{
+    font-family: monospace;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 10px auto 20px auto;
+}
+
+.updateUserInfoArea form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputBox{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid var(--dark-gray);
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+}
+
+.inputBox input{
+    width: 60%;
+    height: 100%;
+    padding: 5px 15px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: var(--black);
+    color: #fff;
+    outline: none;
+}
+
+.inputBox label{
+    width: 40%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--orange);
+    border-right: 2px solid var(--dark-gray);
+    font-family: monospace;
+    font-size: .9rem;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    border: 2px solid var(--dark-gray);
+    cursor: pointer;
+}
+
+.changed {
+    background: linear-gradient(135deg, var(--orange), var(--orange-two));
+  }

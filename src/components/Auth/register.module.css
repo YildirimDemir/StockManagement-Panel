@@ -1,0 +1,133 @@
+.createUserArea{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createUserArea form{
+    width: 400px;
+    height: 650px;
+    border: 1px solid var(--orange);
+    background-color: var(--dark-gray);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.createUserArea form h2{
+    font-size: 1.5rem;
+    background: linear-gradient(135deg, var(--orange), var(--orange-two));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.inputGroup{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputGroup label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    height: 55px;
+    width: 90px;
+    box-sizing: border-box;
+    border: 2px solid var(--orange);
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+    background-color: var(--dark-gray);
+    text-align: center;
+    font-size: .85rem;
+    color: #fff;
+}
+
+.inputGroup input {
+    padding: 10px;
+    height: 55px;
+    /* width: calc(100% - 150px); */
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid var(--orange);
+    outline: none;
+    border-left: none;
+    border-radius: 0px 8px 8px 0px;
+    background-color: var(--dark-gray);
+    font-size: .9rem;
+    color: #fff;
+}
+
+.inputGroup select {
+    padding: 10px;
+    height: 55px;
+    /* width: calc(100% - 150px); */
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid var(--orange);
+    outline: none;
+    border-left: none;
+    border-radius: 0px 8px 8px 0px;
+    font-size: .9rem;
+}
+
+
+.inputTypePass{
+    border-radius: 0px !important; 
+}
+
+.passInput {
+    display: flex;
+}
+
+.passInput input{
+    width: 190px;
+}
+
+.toggleButton{
+    text-align: center;
+    border:  solid var(--orange);
+    border-radius: 0px 8px 8px 0px;
+    font-size: 1rem;
+    padding: 3px;
+    width: 40px;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.link{
+    font-family: monospace;
+    font-size: .9rem;
+    color: var(--orange-two);
+}
+
+.link:hover{
+    color: var(--orange);
+}
+
+.btn {
+    padding: 8px 12px;
+    width: 100px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, var(--orange), var(--orange-two));
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}

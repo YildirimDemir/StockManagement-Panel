@@ -1,0 +1,80 @@
+.allAccountsArea{
+    height: calc(100vh - 80px);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allAccountsArea h1{
+    font-family: monospace;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+    transform: translateY(100px);
+}
+
+.allAccounts{
+    width: 800px;
+    height: 400px;
+    border: 1px solid var(--dark-gray);
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.boxArea{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.noAccounts{
+    justify-content: center;
+}
+
+.singleAccountBox{
+    width: 220px;
+    height: 220px;
+    margin: auto 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid var(--dark-gray);
+    cursor: pointer;
+    position: relative;
+    transition: ease-in-out .2s;
+}
+
+.singleAccountBox:hover{
+    border-color: var(--orange);
+}
+
+.singleAccountBox h3{
+    font-size: 4rem;
+    color: var(--orange);
+}
+
+.singleAccountBox h2{
+    font-size: 1.2rem;
+    color: var(--orange);
+    font-weight: 700;
+}
+
+
+.singleAccountBox p{
+    font-size: 1rem;
+    color: #909090;
+}
+
+.singleAccountBox span{
+    color: #909090;
+    font-size: .9rem;
+}
